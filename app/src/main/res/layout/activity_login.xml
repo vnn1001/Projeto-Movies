@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/preto"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:background="@color/preto"
+        >
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Login"
+           android:textAlignment="center"
+           android:textSize="40sp"
+           android:layout_marginBottom="10dp"
+           android:textColor="@color/branco"
+           />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usuário"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/branco"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entre com o usuário"
+            android:inputType="textPersonName"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:background="@color/branco"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Senha"
+            android:textColor="@color/branco"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entre com a senha"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:background="@color/branco"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/preto"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Entrar"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Registre-se"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
