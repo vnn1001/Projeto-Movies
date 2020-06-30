@@ -30,7 +30,7 @@ public class MySingleton {
         return myInstance;
     }
 
-    public <T> void addToRequestque(Request<T> request) {
+    public <T> void addToRequestque(JsonObjectRequest request) {
         requestQueue.add(request);
 
     }

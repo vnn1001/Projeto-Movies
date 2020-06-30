@@ -16,8 +16,6 @@ import com.android.volley.toolbox.JsonObjectRequest;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.os.Bundle;
-
 public class MainActivity extends AppCompatActivity {
     TextView nome, genero, descricao;
     Button btnCarregaDados;
