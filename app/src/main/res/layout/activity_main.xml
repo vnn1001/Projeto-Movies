@@ -33,21 +33,6 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:orientation="vertical">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Nome do Filme:"
-                android:textColor="@color/branco"
-                android:textSize="20sp" />
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="2dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginRight="20dp"
-                android:background="@color/cinza" />
-
         </LinearLayout>
     </LinearLayout>
 
@@ -60,17 +45,18 @@
         android:orientation="vertical"
         android:background="@color/preto"
         >
-
         <TextView
+            android:id="@+id/txtNome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Avaliação: "
+            android:text="Nome do Filme:"
             android:textColor="@color/branco"
             android:textSize="20sp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20sp"
             />
 
         <TextView
+            android:id="@+id/txtGenero"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -79,14 +65,7 @@
             android:textSize="20sp" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:text="Lançamento: "
-            android:textSize="20sp"
-            android:textColor="@color/branco"
-            />
-        <TextView
+            android:id="@+id/txtDescricao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -95,6 +74,13 @@
             android:layout_marginBottom="30dp"
             android:textColor="@color/branco"
             />
+        <Button
+            android:id="@+id/btnCarregaInformacoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Carrega Informações" />
+
     </LinearLayout>
 
     <View
